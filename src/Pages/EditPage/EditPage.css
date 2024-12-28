@@ -1,0 +1,186 @@
+.edit-div {
+   border: 1px solid #093545;
+    background-color: #093545;
+    width: 100%;
+    height: 1000px;
+}
+
+.edit-heading {
+  color: #ffffff;
+  width: 500px;
+  height: 56px;
+  margin: 120px 0 0 120px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.edit-pic-input-div {
+   display: flex;
+  margin: 176px 0 0 120px;
+}
+
+.edit-pic {
+  border: 2px dashed #ffffff;
+    width: 473px;
+    height: 540px;
+    border-style: dashed;
+    border-radius: 10px;
+   background-color: #224957;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.file-input {
+  display: block;
+  margin-top: 10px;
+}
+
+.edit-title-div{
+   width: 362px;
+  height: 235px;
+  margin-left: 130px;
+}
+
+.edit-title {
+   width: 362px;
+   height: 45px;
+   border: 1px solid #224957;
+   outline: none;
+   background-color: #224957;
+   color: #ffffff;
+   border-radius: 10px;
+   font-size: 16px;
+   font-weight: 400;
+   padding-left: 15px;
+}
+
+.edit-year {
+  width: 216px;
+    height: 45px;
+    margin-top: 15px;
+     border: 1px solid #224957;
+     color: #ffffff;
+   outline: none;
+   background-color: #224957;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: 400;
+   padding-left: 15px;
+}
+
+.cancel{
+   width: 170px;
+  height: 56px;
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: #093545;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.edit-submit{
+   width: 179px;
+  height: 56px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #2bd17e;
+  border: 1px solid #2bd17e;
+  outline: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .edit-heading {
+    font-size: 36px;
+    margin: 60px 0 0 30px;
+    width: auto;
+  }
+
+  .edit-pic-input-div {
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0;
+  }
+
+  .edit-pic {
+    width: 80%;
+    height: 400px;
+  }
+
+  .edit-title-div {
+    margin: 20px 0 0;
+    width: 90%;
+  }
+
+  .edit-title,
+  .edit-year {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .cancel,
+  .edit-submit {
+    width: 100%;
+    font-size: 16px;
+    gap: 10px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .edit-heading {
+    font-size: 28px;
+    margin: 40px 0 0 15px;
+    text-align: center;
+  }
+
+  .edit-pic-input-div {
+    margin: 60px 0 0;
+    align-items: center;
+  }
+
+  .edit-pic {
+    width: 90%;
+    height: 250px;
+  }
+
+  .edit-title-div {
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .edit-title,
+  .edit-year {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .cancel,
+  .edit-submit {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .cancel {
+    margin-top: 20px;
+  }
+
+  .edit-submit {
+    margin-top: 10px;
+  }
+}

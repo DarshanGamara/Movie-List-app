@@ -1,0 +1,153 @@
+.main-div {
+    width: 100%;
+    height: 800px;
+    background-color: #093545;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.login-div {
+     width: 400px;
+     height: 360px; 
+      display: flex;
+    flex-direction: column;
+     text-align: center;
+}
+
+h1 {
+     color: #ffffff;
+     font-size: 64px;
+     margin: 0;
+     font-weight: 600;
+}
+
+.email, .password {
+    color: #ffffff;
+   text-align: left;
+   border: 1px solid #224957;
+   width: 95%;
+   height: 45px;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   background: #224957;
+    outline: none;
+    padding-left: 15px;
+    margin-top: 35px;
+}
+
+.checkbox-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #224957;
+    outline: none;
+    background: #224957;
+    width: 20px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+.remember-me {
+   font-size: 18px;
+   font-weight: 400;
+   margin-left: 5px;
+   color: #ffffff;
+}
+
+.login {
+     width: 100%;
+   height: 45px;
+   border-radius: 10px;
+   margin-top: 20px;
+   background-color: #2bd17e;
+   border: 1px solid #2bd17e;
+   outline: none;
+   font-size: 20px;
+   cursor: pointer;
+   font-weight: 700;
+   color: #ffffff;
+   line-height: 24px;
+}
+
+.login:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+ .invalid  {
+    border-color: red;
+  background: #fbdada;
+}
+
+@media (max-width: 768px) {
+    .login-div {
+        width: 90%; 
+        height: auto; 
+    }
+    
+    h1 {
+        font-size: 48px; 
+    }
+    
+    .email, .password {
+        width: 100%; 
+        margin-top: 20px; 
+    }
+    
+    .login {
+        font-size: 18px; 
+        height: 40px; 
+    }
+
+    .checkbox {
+        width: 18px; 
+        height: 16px; 
+    }
+
+    .remember-me {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .login-div {
+        width: 100%; 
+        padding: 20px; 
+    }
+    
+    h1 {
+        font-size: 36px; 
+    }
+
+    .email, .password {
+        width: 100%;
+        margin-top: 15px; 
+    }
+    
+    .login {
+        font-size: 16px; 
+        height: 40px; 
+    }
+
+    .checkbox {
+        width: 18px; 
+        height: 16px;
+    }
+
+    .remember-me {
+        font-size: 14px; 
+    }
+}
+
+
